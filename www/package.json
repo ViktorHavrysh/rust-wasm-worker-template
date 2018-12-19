@@ -1,0 +1,21 @@
+{
+  "author": "Victor Gavrish <victor.gavrish@gmail.com>",
+  "name": "create-rust-wasm-worker",
+  "version": "0.1.0",
+  "repository": "https://github.com/rustwasm/rust-wasm-worker-template",
+  "license": "Apache-2.0/MIT",
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "build": "webpack --mode production"
+  },
+  "bin": {
+    "create-rust-wasm-worker": ".bin/create-rust-wasm-worker.js"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "0.1.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
