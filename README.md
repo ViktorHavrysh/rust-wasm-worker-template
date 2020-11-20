@@ -20,4 +20,6 @@ to WebAssembly and hooking into a Webpack build pipeline.
 
 ## 🚴 Using This Template
 
-_TODO_
+- In the project base directory, `~`, run `cargo build`.
+- In `~/www`, run `npm install`.
+- If you need to change dependancies and get weird errors, try running `./clean.sh` to purge all caches.
